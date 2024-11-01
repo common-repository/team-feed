@@ -1,0 +1,192 @@
+/**
+ * All of the CSS for widget public-facing functionality
+ */
+
+.team-feed-channel {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#team-feed-channel {
+    width: 220px;
+    height: 300px;
+    margin-left: 4px;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#team-feed-channel li {
+    width: 185px;
+    padding: 2px;
+    line-height: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+
+#team-feed-channel li a {
+    color: #666;
+}
+
+#team-feed-channel li a.continue-reading {
+    color: #676CBD;
+    cursor: pointer;
+}
+
+#team-feed-channel li a#file {
+    display: block;
+}
+
+#team-feed-channel li span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-bottom : 5px;
+}
+
+#team-feed-channel li img {
+    background: #fff;
+    float: left;
+    padding: 3px;
+    margin: 5px 10px 0px 0px;
+    border: 0px solid #D8DFEA;
+}
+
+img.image-post {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+img#profile {
+    border-radius: 8px;
+}
+
+B {
+    float: left;
+}
+
+p#comment {
+    float: left;
+}
+
+p.Nohistory {
+    font-family:Tahoma;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center
+}
+
+.pic-error {
+    background-image: url("../images/teamfeedlogo.jpg");
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 200px) {
+    ul#team-feed-channel {
+        width: 98%;
+        height: 300px;
+    }
+
+    #team-feed-channel li {
+        width: 98%;
+        float: left;
+    }
+
+    #team-feed-channel li a,
+    #team-feed-channel li p,
+    #team-feed-channel li span {
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .team-feed-channel {
+        width: 55%;
+    }
+
+    #team-feed-channel {
+        width: 98%;
+        height: 300px;
+    }
+
+    #team-feed-channel li {
+        width: 98%;
+        float: left;
+        line-height: 20px;
+    }
+
+    #team-feed-channel li a,
+    #team-feed-channel li p,
+    #team-feed-channel li span {
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .team-feed-channel {
+        width: 175px;
+    }
+
+    #team-feed-channel {
+        width: 98%;
+        height: 300px;
+    }
+
+    #team-feed-channel li {
+        float: left;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    .team-feed-channel {
+        width: 250px;
+    }
+
+    #team-feed-channel {
+        width: 98%;
+        height: 300px;
+    }
+
+    #team-feed-channel li {
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .team-feed-channel {
+        width: 270px;
+    }
+
+    #team-feed-channel {
+        width: 98%;
+        height: 300px;
+    }
+
+    #team-feed-channel li {
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .team-feed-channel {
+        width: 300px;
+    }
+
+    #team-feed-channel {
+        width: 98%;
+        height: 300px;
+    }
+
+    #team-feed-channel li {
+        float: left;
+    }
+}
+
